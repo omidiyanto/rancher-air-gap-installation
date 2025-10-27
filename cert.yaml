@@ -1,0 +1,18 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: tls-rancher-ingress
+  namespace: cattle-system
+spec:
+  secretName: tls-rancher-ingress
+  duration: 2160h
+  renewBefore: 768h
+  privateKey:
+    algorithm: RSA
+    size: 4096
+  commonName: rancher.satnusa.com
+  dnsNames:
+    - rancher.satnusa.com
+  issuerRef:
+    name: vault-cluster-issuer
+    kind: ClusterIssuer

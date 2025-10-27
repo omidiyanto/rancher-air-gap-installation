@@ -1,0 +1,15 @@
+rancher/kubelr-kubectl:v5.0.0
+rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.5.1
+rancher/pushprox-client:v0.1.5-rancher2-client
+rancher/pushprox-proxy:v0.1.5-rancher2-proxy
+rancher/appco-k8s-sidecar:1.30.7-11.3
+rancher/mirrored-grafana-grafana:11.5.5
+rancher/mirrored-library-nginx:1.27.2-alpine
+rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.15.0
+rancher/mirrored-prometheus-operator-prometheus-operator:v0.80.1
+rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0
+rancher/mirrored-prometheus-node-exporter:v1.9.0
+rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.80.1
+rancher/mirrored-prometheus-alertmanager:v0.28.1
+rancher/prom-prometheus:v3.2.1
+rancher/mirrored-library-nginx:1.27.2-alpine
